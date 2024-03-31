@@ -1,0 +1,5 @@
+## Installs
+
+```
+npm install
+```
