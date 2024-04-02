@@ -43,6 +43,15 @@ export default function Login() {
           error={emailHasError && "Please enter a valid email address..."}
         />
 
+        {/* 
+        .control-row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          gap: 1rem;
+        }
+         */}
+
         <Input
           label="Password"
           id="password"
@@ -57,6 +66,13 @@ export default function Login() {
       <p className="form-actions">
         <button className="button button-flat">Reset</button>
         <button className="button">Login</button>
+        {/* 
+        .form-actions {
+          display: flex;
+          justify-content: flex-end;
+          gap: 1rem;
+        }
+         */}
       </p>
     </form>
   );

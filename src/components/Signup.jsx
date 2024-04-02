@@ -27,7 +27,6 @@ export default function Signup() {
       <div className="control">
         <label htmlFor="email">Email</label>
         <input id="email" type="email" name="email" required />
-        {/* required requires it not be empty */}
       </div>
 
       <div className="control-row">
@@ -120,6 +119,87 @@ export default function Signup() {
           I agree to the terms and conditions
         </label>
       </div>
+      {/* 
+      .control,
+      fieldset {
+        margin-bottom: 1rem;
+      }
+
+      .control.no-margin {
+        margin-bottom: 0;
+      }
+
+      .control label {
+        display: block;
+        font-size: 0.8rem;
+        margin-bottom: 0.2rem;
+        color: #9bafaf;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .control input {
+        display: block;
+        width: 100%;
+        max-width: 15rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        border: 1px solid #758a8a;
+        background-color: #869999;
+        color: #142020;
+      }
+
+      .control select {
+        display: block;
+        width: 100%;
+        max-width: 15rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        border: 1px solid #758a8a;
+        background-color: #869999;
+        color: #142020;
+      }
+
+      .control:has(input[type='checkbox']) {
+        display: flex;
+        align-items: center;
+      }
+
+      .control:has(input[type='checkbox']) label {
+        margin: 0;
+      }
+
+      .control input[type='checkbox'] {
+        display: inline-block;
+        width: auto;
+        max-width: none;
+        margin-right: 0.5rem;
+        border-radius: 0;
+        border: none;
+        background-color: transparent;
+        color: #d9e2f1;
+      }
+
+      .control-error {
+        color: #ffca99;
+        font-size: 0.8rem;
+        height: 2rem;
+        padding: 0.5rem 0;
+      }
+
+      .control-error p {
+        margin: 0;
+      }
+
+      .control-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+      }
+       */}
 
       <p className="form-actions">
         <button type="reset" className="button button-flat">
