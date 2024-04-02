@@ -1,6 +1,6 @@
 import Input from "./input.jsx";
-import { isEmail, isNotEmpty, hasMinLength } from "../util/validation.js";
-import useInput from "../hooks/useInput.js";
+import { isEmail, isNotEmpty, hasMinLength } from "./validation.js";
+import useInput from "./useInput.js";
 
 export default function Login() {
   const {
